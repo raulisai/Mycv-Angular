@@ -1,0 +1,7 @@
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+.w3-quarter {
+ background-color: black;
+ height: 100%;
+}
+
+.w3-threequarter { margin-left: 24.999%;}
