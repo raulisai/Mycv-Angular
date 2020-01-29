@@ -18,7 +18,7 @@
   
     </div>
   </div>-->
-  <div class="w3-text-grey w3-card-4 BanerLeft">
+  <div class=" w3-card-4 BanerLeft">
     <div id="w3-container ConteinerPrimary row">
     <div class="w3-display-container ContendFoto col-sm-5">
       <img src="../../../assets/img/FotoPerfil.jpg" id="ImgPerf" alt="Avatar">
@@ -27,29 +27,31 @@
     </div>
     <div class="ContenInf col-sm-7">
       <h2 id="Name">{{name}}</h2>
-      <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Developer</p>
-      <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Mexico, CDMX</p>
-      <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>raulisai97@gmail.com</p>
-      <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>5576176856</p>
-      <hr>
+      <p>Developer</p>
+      <p>Mexico, CDMX</p>
+      <!--<p>raulisai97@gmail.com</p>
+      <p>5576176856</p>--->
     </div>
       </div>
+      <br>
+      <div class="Menu">
       <nav class="navPrincipal">
-        <div class="Menu">
-          <ul class="nav navbar-right">
-            <li routerLinkActive="active"><a [routerLink]="['Home']"><span class="glyphicon glyphicon-user"></span> Home</a></li>
-            <li routerLinkActive="active"><a [routerLink]="['Studies']"><span class="glyphicon glyphicon-log-in"></span> Educación</a></li>
-            <li routerLinkActive="active"><a [routerLink]="['Skill']"><span class="glyphicon glyphicon-user"></span> Skill</a></li>
-            <li routerLinkActive="active"><a [routerLink]="['Works']"><span class="glyphicon glyphicon-log-in"></span> Experiencia</a></li>
-            <li routerLinkActive="active"><a [routerLink]="['Contact']"><span class="glyphicon glyphicon-log-in"></span>Contacto</a></li>
+          <ul class="nav">
+            <li routerLinkActive="active" class="Icn-menu"><a [routerLink]="['Home']"><i class="fa fa-th icon" style="font-size:24px"></i>Home</a></li>
+            <li routerLinkActive="active" class="Icn-menu"><a [routerLink]="['Studies']"><i class="fa fa-bank icon" style="font-size:24px"></i> Educación</a></li>
+            <li routerLinkActive="active" class="Icn-menu"><a [routerLink]="['Skill']"><i class="fa fa-cogs icon" style="font-size:24px"></i> Skill</a></li>
+            <li routerLinkActive="active" class="Icn-menu"><a [routerLink]="['Works']"><i class="fa fa-suitcase icon" style="font-size:24px"></i> Experiencia</a></li>
+            <li routerLinkActive="active" class="Icn-menu"><a [routerLink]="['Contact']"><i class="fa fa-vcard icon" style="font-size:24px"></i>Contacto</a></li>
           </ul>
-        </div>
       </nav>
-      <div class="RedesSociales">
-        
-        <i class="fa fa-facebook-official"></i>
-        <i class="fab fa-facebook"></i>
-        
-      </div>
+    </div>
+    <div class="redSociales">
+      <h4>Follow Us</h4>
+      <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
+      <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
+      <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-google-plus"></i></a>
+      <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram"></i></a>
+      
+    </div>
       
   </div>

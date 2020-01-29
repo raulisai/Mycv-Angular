@@ -6,8 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home-and-philosofhy.component.css']
 })
 export class HomeAndPhilosofhyComponent implements OnInit {
-
+  
+  
+  
   constructor() { }
+
+
 
   ngOnInit() {
   }

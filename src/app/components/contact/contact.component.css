@@ -1,0 +1,9 @@
+
+h1,h5 {font-family: "Raleway", sans-serif}
+
+.bgimg {
+  background-image: url('../../../assets/img/architect.jpg');
+  padding-top: 50%;
+  background-position: center;
+  background-size: cover;
+}

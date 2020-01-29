@@ -1,15 +1,7 @@
-
-.w3-container {
-    background-color: black;
-}
-.BanerLeft {
-background-color: blue;
-
-}
-
-
+p, i, a {color: white;}
 
 /* Information */
+
 
 #Name {
 color: white;
@@ -21,15 +13,16 @@ color: white;
     padding-top: 15%;
 }
 
+.ContenInf {
 
-.RedesSociales {
-
-    
-    position:absolute;
-    bottom:20%;
-    right:15%;
-    
+    text-align: right;
 }
+.Icn-menu {
 
+    margin-top: 9%;
+}
+.navPrincipal {
+    margin-top: 25%;
+}
 
 
