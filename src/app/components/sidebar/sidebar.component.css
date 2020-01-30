@@ -7,7 +7,7 @@ p, i, a {color: white;}
 color: white;
 }
 #ImgPerf {
-    width:90%;
+    width:100%;
     opacity: 0.9;
     padding-left: 7%;
     padding-top: 15%;
@@ -19,10 +19,22 @@ color: white;
 }
 .Icn-menu {
 
-    margin-top: 9%;
+    margin-top: 10%;
 }
 .navPrincipal {
-    margin-top: 25%;
+    margin-top: 35%;
 }
+.redSociales {
 
-
+    padding-top: 8%;
+    }
+.w3-button {
+ margin-left: 5%;
+}
+.icon {
+ margin-left: 5%;
+ margin-right: 10%;
+}
+.nav > li > a:hover {
+    background-color: rgba(60, 60, 65, 0.664);
+}
