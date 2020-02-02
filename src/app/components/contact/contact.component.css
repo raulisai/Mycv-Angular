@@ -1,9 +1,107 @@
-
-h1,h5 {font-family: "Raleway", sans-serif}
-
 .bgimg {
-  background-image: url('../../../assets/img/architect.jpg');
-  padding-top: 50%;
+  background-color: black;
+  padding-top: 48%;
+  padding-left: 5%;
   background-position: center;
   background-size: cover;
+}
+
+.row {
+
+  background-color: #181817;
+  color: white;
+}
+
+
+.containerheader {
+  margin-right: 6.6%;
+  margin-left:  6.6%;
+}
+
+/*---------------------------------------
+  Boton principal              
+-----------------------------------------*/
+.btn {
+  margin: 20px auto;
+  border: none;
+  padding: 10px 44px;
+  font-size: 36px;
+  position: relative;
+}
+.btn::before {
+  -webkit-transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  content: "";
+  width: 50%;
+  height: 100%;
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.btn .btn-text {
+  color: white;
+  mix-blend-mode: difference;
+}
+.btn:hover::before {
+  background: black;
+  width: 100%;
+}
+.btn.rounded {
+  border-radius: 50px;
+}
+.btn.rounded .text-green {
+  color: #8a8071;
+  mix-blend-mode: difference;
+}
+.btn.rounded::before {
+  border-radius: 50px;
+  width: 25%;
+  background: #10dda0a9;
+}
+.btn.rounded:hover::before {
+  background: #10dda0a9;
+  width: 100%;
+}
+
+/*---------------------------------------
+  Contact section              
+-----------------------------------------*/
+
+.contact-info .fa {
+  padding-right: 5px;
+}
+
+#contact .form-control {
+  border: none;
+  border-bottom: 2px solid #f0f0f0;
+  border-radius: 0px;
+  box-shadow: none;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+}
+
+#contact .form-control:focus {
+  border-bottom-color: #999999;
+}
+
+#contact input {
+  height: 55px;
+}
+
+#contact button#submit {
+  background: #2b2b2b;
+  border: none;
+  border-radius: 50px;
+  color: #ffffff;
+  height: 50px;
+  margin-top: 24px;
+}
+
+#contact button#submit:hover {
+  background: #10dda0a9;
+  color: #ffffff;
 }

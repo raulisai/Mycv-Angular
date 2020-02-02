@@ -1,26 +1,66 @@
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
 
 <div class="bgimg">
-<p><button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-black">contact</button></p>
+<p><button onclick="document.getElementById('contact').style.display='block'" class=" btn rounded"><span class="text-green">Contactame</span></button></p>
 </div>
-
   
   <!-- Contact Modal -->
-<div id="contact" class="w3-modal">
-    <div class="w3-modal-content w3-animate-zoom">
-      <div class="w3-container w3-black">
-        <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+<div id="contact" class="w3-modal conetendContact">
+    <div class=" w3-animate-zoom">
+      <div class="w3-container w3-black containerheader">
+        <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-display-topright ">x</span>
         <h1>Contact</h1>
       </div>
       <div class="w3-container">
-        <p>Reserve a table, ask for today's special or just send us a message:</p>
-        <form action="/action_page.php" target="_blank">
-          <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
-          <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"></p>
-          <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00"></p>
-          <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
-          <p><button class="w3-button" type="submit">SEND MESSAGE</button></p>
-        </form>
+        <section id="contact" class="parallax-section">
+          <div class="container">
+               <div class="row">
+     
+                    <div class="col-md-12 col-sm-12">
+                         <!-- SECTION TITLE -->
+                         <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
+                              <h2>Get in touch</h2>
+                              <p>Lorem ipsum dolor sit amet, consectetur venenatis tincidunt.</p>
+                         </div>
+                    </div>
+     
+                    <div class="col-md-7 col-sm-10">
+                         <!-- CONTACT FORM HERE -->
+                         <div class="wow fadeInUp" data-wow-delay="0.4s">
+                             <form id="contact-form" action="#" method="get">
+                                   <div class="col-md-6 col-sm-6">
+                                        <input type="text" class="form-control" name="name" placeholder="Name" required="">
+                                   </div>
+                                   <div class="col-md-6 col-sm-6">
+                                        <input type="email" class="form-control" name="email" placeholder="Email" required="">
+                                   </div>
+                                   <div class="col-md-12 col-sm-12">
+                                        <textarea class="form-control" rows="5" name="message" placeholder="Message" required=""></textarea>
+                                   </div>
+                                   <div class="col-md-offset-8 col-md-4 col-sm-offset-6 col-sm-6">
+                                        <button id="submit" type="submit" class="form-control" name="submit">Send Message</button>
+                                   </div>
+                             </form>
+                         </div>
+                    </div>
+     
+                    <div class="col-md-5 col-sm-8">
+                         <!-- CONTACT INFO -->
+                         <div class="wow fadeInUp contact-info" data-wow-delay="0.4s">
+                              <div class="section-title">
+                                   <h2>Contact Info</h2>
+                                   <p>Lorem ipsum dolor sit consectetur adipiscing morbi venenatis et tortor consectetur adipisicing lacinia tortor morbi ultricies.</p>
+                              </div>
+                              
+                              <p><i class="fa fa-map-marker"></i> 456 New Street 22000, New York City, USA</p>
+                              <p><i class="fa fa-comment"></i> <a href="mailto:info@company.com">info@company.com</a></p>
+                              <p><i class="fa fa-phone"></i> 010-020-0340</p>
+                         </div>
+                    </div>
+     
+               </div>
+          </div>
+     </section>
       </div>
     </div>
   </div>
